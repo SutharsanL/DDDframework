@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87530" started-at="2022-06-01T08:08:12 IST" finished-at="2022-06-01T08:09:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87530" started-at="2022-06-01T08:08:12 IST" finished-at="2022-06-01T08:09:40 IST">
+      <class name="com.vcentry.lab.testcases.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="openBrowser" is-config="true" duration-ms="3644" started-at="2022-06-01T08:08:12 IST" finished-at="2022-06-01T08:08:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="launchUrl" is-config="true" duration-ms="6819" started-at="2022-06-01T08:08:16 IST" finished-at="2022-06-01T08:08:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="login" duration-ms="2454" started-at="2022-06-01T08:08:24 IST" data-provider="loginData" finished-at="2022-06-01T08:08:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="login" duration-ms="1381" started-at="2022-06-01T08:08:26 IST" data-provider="loginData" finished-at="2022-06-01T08:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="login" duration-ms="280" started-at="2022-06-01T08:08:28 IST" data-provider="loginData" finished-at="2022-06-01T08:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="login" duration-ms="5453" started-at="2022-06-01T08:08:28 IST" data-provider="loginData" finished-at="2022-06-01T08:08:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vcentry.lab.testcases.LoginTest@451001e5]" name="closeBrowser" is-config="true" duration-ms="181" started-at="2022-06-01T08:09:40 IST" finished-at="2022-06-01T08:09:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vcentry.lab.testcases.LoginTest -->
+      <class name="com.vcentry.lab.testcases.AddNewUserTest">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.vcentry.lab.testcases.AddNewUserTest@70ed52de]" name="launchUrl" is-config="true" duration-ms="901" started-at="2022-06-01T08:08:34 IST" finished-at="2022-06-01T08:08:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="navigatetoUsersinAdminTab()[pri:2, instance:com.vcentry.lab.testcases.AddNewUserTest@70ed52de]" name="navigatetoUsersinAdminTab" duration-ms="1635" started-at="2022-06-01T08:08:34 IST" finished-at="2022-06-01T08:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoUsersinAdminTab -->
+        <test-method status="PASS" signature="addNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.vcentry.lab.testcases.AddNewUserTest@70ed52de]" name="addNewUser" duration-ms="31854" started-at="2022-06-01T08:08:36 IST" data-provider="newUserData" finished-at="2022-06-01T08:09:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asdfghjk]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test_1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method status="PASS" signature="addNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.vcentry.lab.testcases.AddNewUserTest@70ed52de]" name="addNewUser" duration-ms="31816" started-at="2022-06-01T08:09:08 IST" data-provider="newUserData" finished-at="2022-06-01T08:09:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joe Root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zxcvbnmnhgr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test_1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+      </class> <!-- com.vcentry.lab.testcases.AddNewUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
